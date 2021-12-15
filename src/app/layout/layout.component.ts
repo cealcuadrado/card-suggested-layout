@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.scss'],
 })
 export class LayoutComponent implements OnInit {
+  active: number = 1;
   columns: number = 4;
 
   cards: any = [
@@ -17,7 +18,7 @@ export class LayoutComponent implements OnInit {
     { title: 'Crear tarea', quantity: 22, icon: 'fa-at' },
     { title: 'Generar sentencia', quantity: 9, icon: 'fa-award' },
     { title: 'Generar medida cautelar', quantity: 8, icon: 'fa-bahai' },
-    { title: 'Firmar sentencia', quantity: 8, icon: 'fa-baseball-bat' },
+    { title: 'Firmar sentencia', quantity: 8, icon: 'fa-bolt' },
     { title: 'Firmar medida cautelar', quantity: 8, icon: 'fa-bath' },
     { title: 'Resolver competencia', quantity: 8, icon: 'fa-bomb' },
   ];
